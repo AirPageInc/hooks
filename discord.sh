@@ -8,13 +8,13 @@ echo -e "[Webhook]: Sending webhook to Discord...\\n";
 
 case $1 in
   "success" )
-    EMBED_COLOR=3066993
+    EMBED_COLOR=11006432
     STATUS_MESSAGE="Passed"
     AVATAR="https://travis-ci.org/images/logos/TravisCI-Mascot-blue.png"
     ;;
 
   "failure" )
-    EMBED_COLOR=15158332
+    EMBED_COLOR=15506084
     STATUS_MESSAGE="Failed"
     AVATAR="https://travis-ci.org/images/logos/TravisCI-Mascot-red.png"
     ;;
